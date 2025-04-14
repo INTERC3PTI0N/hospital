@@ -1,0 +1,83 @@
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eee;
+}
+
+.table th {
+    font-weight: 600;
+    color: #495057;
+}
+
+.badge {
+    padding: 0.5em 0.75em;
+}
+
+.container {
+    padding: 20px;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.table-responsive {
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.lead {
+    color: #6c757d;
+}
+
+/* Custom styles for the dashboard cards */
+.card .card-body {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card .card-title {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.card .card-text {
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+}
